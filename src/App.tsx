@@ -1,12 +1,19 @@
 import React from 'react';
 import Example from './Example';
-// import TodoList from './components/TodoList';
+import ExampleFun from './ExampleFun';
+import ExampleHook from './ExampleHook';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className="App">
-      {/* <TodoList /> */}
+      <TodoList />
+      <br />
       <Example />
+      <br />
+      <ExampleFun />
+      <br />
+      <ExampleHook />
     </div>
   );
 }
